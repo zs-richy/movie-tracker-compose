@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <style name="Theme.MovieTrackerCompose" parent="android:Theme.Material.Light.NoActionBar" />-->
+
+    <style name="Theme.MovieApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.MovieApp.Splash" parent="Theme.MovieApp">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+<!--        <item name="android:windowSplashScreenAnimatedIcon">@drawable/baseline_movie_24</item>-->
+        <item name="postSplashScreenTheme">@style/Theme.MovieApp</item>
+    </style>
+</resources>

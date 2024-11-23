@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Filmnapló Compose</string>
+    <string name="add_movie">Új</string>
+    <string name="edit_movie">Film módosítása</string>
+    <string name="new_movie">Új film</string>
+    <string name="save_movie">Film mentése</string>
+    <string name="delete_movie">Film törlése</string>
+    <string name="cancel">Mégse</string>
+    <string name="unknown">Ismeretlen</string>
+    <string name="date">Dátum</string>
+    <string name="genre">Műfaj</string>
+    <string name="title">Cím</string>
+    <string name="score">Értékelés</string>
+    <string name="delete">Törlés</string>
+    <string name="delete_movie_confirm">Biztosan törölni szeretné a következőt? \'%1$s\'</string>
+    <string name="empty_content">Movie list is empty :(\\nAdd some content!</string>
+</resources>
